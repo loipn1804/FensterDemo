@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/white">
+
+            <com.malmstein.fenster.view.FensterVideoView
+                android:id="@+id/play_video_texture_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:keepScreenOn="true"
+                app:scaleType="crop"/>
+
+            <com.malmstein.fenster.controller.SimpleMediaFensterPlayerController
+                android:id="@+id/play_video_controller_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/play_video_texture_1"
+                android:layout_alignLeft="@id/play_video_texture_1"
+                android:layout_alignRight="@id/play_video_texture_1"
+                android:layout_alignTop="@id/play_video_texture_1"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/white">
+
+            <com.malmstein.fenster.view.FensterVideoView
+                android:id="@+id/play_video_texture_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:keepScreenOn="true"/>
+
+            <com.malmstein.fenster.controller.SimpleMediaFensterPlayerController
+                android:id="@+id/play_video_controller_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/play_video_texture_2"
+                android:layout_alignLeft="@id/play_video_texture_2"
+                android:layout_alignRight="@id/play_video_texture_2"
+                android:layout_alignTop="@id/play_video_texture_2"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/white">
+
+            <com.malmstein.fenster.view.FensterVideoView
+                android:id="@+id/play_video_texture_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:keepScreenOn="true"/>
+
+            <com.malmstein.fenster.controller.SimpleMediaFensterPlayerController
+                android:id="@+id/play_video_controller_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/play_video_texture_3"
+                android:layout_alignLeft="@id/play_video_texture_3"
+                android:layout_alignRight="@id/play_video_texture_3"
+                android:layout_alignTop="@id/play_video_texture_3"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/white">
+
+            <com.malmstein.fenster.view.FensterVideoView
+                android:id="@+id/play_video_texture_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:keepScreenOn="true"/>
+
+            <com.malmstein.fenster.controller.SimpleMediaFensterPlayerController
+                android:id="@+id/play_video_controller_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/play_video_texture_4"
+                android:layout_alignLeft="@id/play_video_texture_4"
+                android:layout_alignRight="@id/play_video_texture_4"
+                android:layout_alignTop="@id/play_video_texture_4"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
